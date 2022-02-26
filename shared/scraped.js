@@ -14,7 +14,7 @@ scrapdata = () => {
     let count = 0;
     //getting required data from html body
     $(".s-asin").each((index, element) => {
-      if (count < 20) {
+      if (count < 10) {
         let image = $(element).find(".aok-relative").children().attr("src");
         let title = $(element).find("span.a-text-normal").text();
         let rating = $(element).find(".a-icon-star-small").children().text();
@@ -41,7 +41,7 @@ scrapdata = () => {
       $("._1AtVbE").each((index, element) => {
 
 
-        if (count < 20) {
+        if (count < 30) {
           let image = $(element).find("img._396cs4 ").attr("src");
           let title = $(element).find("div._4rR01T").text();
           let rating = $(element).find("div._3LWZlK").text();
