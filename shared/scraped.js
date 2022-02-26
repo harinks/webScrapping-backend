@@ -41,7 +41,7 @@ scrapdata = () => {
       $("._1AtVbE").each((index, element) => {
 
 
-        if (count < 30) {
+        if (count < 20) {
           let image = $(element).find("img._396cs4 ").attr("src");
           let title = $(element).find("div._4rR01T").text();
           let rating = $(element).find("div._3LWZlK").text();
